@@ -1,0 +1,33 @@
+﻿{
+    "webroot": "dist",
+    "version": "1.0.0-*",
+    "exclude": [
+        "dist/**/*.*",
+        "bower_components/**/*.*",
+        "node_modules/**/*.*",
+        "grunt/**/*.*"
+    ],
+    "packExclude": [
+        "**.kproj",
+        "**.user",
+        "**.vspscc",
+        "bower.json",
+        "package.json",
+        "gruntfile.js",
+        "bower_components/**/*.*",
+        "node_modules/**/*.*",
+        "grunt/**/*.*",
+        "typings/**/**"
+    ],
+    "dependencies": {
+        "Microsoft.AspNet.Server.IIS": "1.0.0-beta1"
+    },
+    "frameworks": {
+        "aspnet50": { },
+        "aspnetcore50": { }
+    },
+    "scripts": {
+        "postrestore": [ "npm install" ],
+        "prepare": [ "grunt bower:install" ]
+    }
+}

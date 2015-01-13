@@ -1,0 +1,33 @@
+{
+  "name": "angular-foundation",
+  "license": "Apache-2.0",
+  "exportsOverride": {
+    "bootstrap": {
+      "js": "dist/js/*.*",
+      "css": "dist/css/*.*",
+      "fonts": "dist/fonts/*.*"
+    },
+    "jquery": {
+      "js": "jquery.{js,min.js,min.map}"
+    }
+  },
+  "version": "0.1.0",
+  "authors": [
+    "Thomas Butler <thomas@butlersoftwarellc.com>"
+  ],
+  "description": "Foundation directives for angular",
+  "main": "dist/ngFoundation.js",
+  "keywords": [
+    "Foundation",
+    "angular",
+    "directives"
+  ],
+  "homepage": "reducktion.github.io/angular-foundation",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

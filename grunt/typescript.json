@@ -1,0 +1,17 @@
+﻿{
+    "gruntfile": {
+        "src": "gruntfile.ts",
+        "options": {
+            "module": "commonjs",
+            "target": "es5"
+        }
+    },
+    "ng": {
+        "src": ["typings/typings.d.ts", "**/*.ng.ts" ],
+        "dest": "dist/ngFoundation.js",
+        "options": {
+            "module": "commonjs",
+            "target": "es5"
+        }
+    }
+}

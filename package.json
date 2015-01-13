@@ -1,0 +1,17 @@
+{
+  "name": "ngFoundation",
+  "version": "1.0.0",
+  "private": false,
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-bower-task": "^0.4.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-copy": "^0.7.0",
+    "grunt-ide-support": "^0.1.8",
+    "grunt-tsd": "^0.2.0-beta.1",
+    "grunt-typescript": "^0.4.8",
+    "grunt-tsng": "^0.1.3",
+    "grunt-html2js": "^0.2.9"
+  }
+}

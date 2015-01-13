@@ -1,0 +1,26 @@
+﻿{
+    "gruntfile": {
+        "files": [ "gruntfile.ts", "grunt\typescript.json" ],
+        "tasks": [ "typescript:gruntfile" ],
+        "options": {
+            "events": "all",
+            "interrupt": false
+        }
+    },
+    "tsd": {
+        "files": [ "tsd.json", "grunt/tsd.json" ],
+        "tasks": [ "tsd" ],
+        "options": {
+            "events": "changed",
+            "interrupt": false
+        }
+    },
+    "ng": {
+        "files": [ "src/**/*.ts", "!**/*.ng.ts", "!**/*.d.ts"],
+        "tasks": [ "ng" ],
+        "options": {
+            "events": "changed",
+            "interrupt": true
+        }
+    }
+}
